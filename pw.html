@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bertille Diaguili</title>
+
+<link rel="stylesheet" type="text/css" href="pw.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap" rel="stylesheet">
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&display=swap');
+<style>	
+</style>
+
+</head>
+
+<body>
+	<header>
+		<h1>Bertille Diaguili</h1>
+		<ul>
+			<li class= "liste"><a class= "index"  href="index.html">Présentation</a>
+			<li class= "liste"><a  id="realisations" class= "index"  href="realisations.html">Réalisations</a></li>
+			<li class= "liste"><a class= "index" href="contact.html">Contact</a></li>	
+		</ul>
+	</header>
+	<content>
+		<h2>Productions web</h2>
+		<div class="img">
+			<img src="doc/pw/site1.jpg"  width="600px">
+		</div>
+		<div class="img"><img src="doc/pw/site2.png"  width="600px">
+		<h4>Design d'une maquette de Site Web</h4>
+		</div>
+		<div class="img">
+			<img src="doc/pw/colmar.png"  width="600px">
+			<h4>Design d'un site web</h4>
+			<a href="https://bienvenidoacolmar.jimdosite.com/" target="_blank">Voir le site</a>
+		</div>
+		</div>
+		</div>
+		<div class="img"><img src="doc/pw/portfolio.png"  width="600px">
+		<h4>Réalisation (codage et design) d'un portfolio fictif</h4>
+		<link rel="stylesheet" type="text/css" href="https://portfolio34mmi.000webhostapp.com/">
+		<a id="site" href="https://portfolio34mmi.000webhostapp.com/"target="_blank">Voir le site</a>
+
+		</div>
+
+	<center>
+		<div  id="convertisseur"  >
+
+			<style>
+
+				#convertisseur{
+					border-radius: 20px;
+					padding:  3% 0;
+					font-family: 'Franklin Gothic regular', 'Arial Narrow', Arial, sans-serif;
+					text-align: center;
+					
+					 width: 50%;
+					 display: block;
+					color: #7A7A7A;
+					background-color: white;
+					
+				}
+
+				#devise {
+					margin-top: 100px;
+				}
+				#form{
+					display: inline-block;
+					text-align: center;
+					margin: 0 40px;
+				}
+				input, label{   
+					font-family: 'century Gothic', 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+					font-size: 20px;
+					color: #7A7A7A;
+					
+
+				
+				}
+				input {
+					border: 2px solid #FDECD3 ;
+					border-radius: 15px;
+					height:30px;
+
+				}
+
+				button {
+					font-family: 'century Gothic', 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				text-align: center;
+					font-size: 20px;
+					background-color: #F18900;
+					border: none;
+					border-radius: 30px;
+					width: 130px;
+					height: 40px;
+					color: white;
+					cursor: pointer;
+
+				}
+
+				button:hover {
+					background-color: #F4BD6C;
+					transition-duration:500ms;
+				}
+
+				p {
+					margin: 0;
+					font-family: 'century Gothic', 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+					animation-duration: 3s;
+					animation-name: slidein;
+					color: #7A7A7A;
+					font-weight: bold;
+					font-size: 20px;
+
+
+				}
+
+				</style>
+			<p> Bienvenue sur notre convertisseur de devises</p>
+
+			<div id="devise"> 
+					<div id="form">
+							<input type="text" id="USD" size="10" placeholder="0" onchange="usdfunc()" />
+					<label for="USD"> $ (DOLLAR) </label>
+					</div>
+
+					<div id="form">
+						<input type="text" id="EUR" size="10" placeholder="0" onchange="eurfunc()" />
+						<label for="EUR"> € (EUR) </label>
+					</div>
+
+					<div id="form">
+						<input type="text" id="GBP" size="10" placeholder="0" onchange="gbpfunc()"/>
+						<label for="GBP"> £ (LIVRE)</label>
+					</div>
+
+				<br><br><br>
+
+				<button onclick="init()" type="submit">Convertir</button>
+				</div>
+			<script>
+
+			var gbp, usd, eur;
+			function init()
+			{
+			gbp = document.getElementById("GBP");
+			usd = document.getElementById("USD");
+			eur = document.getElementById("EUR");
+
+			}
+			function gbpfunc()
+			{
+			usd.value = parseFloat(gbp.value) * 0.49246;
+			eur.value = parseFloat(gbp.value) * 0.69714;
+
+			}
+			function eurfunc()
+			{
+			gbp.value = parseFloat(eur.value) * 1.43448;
+			usd.value = parseFloat(eur.value) * 0.70641;
+
+			}
+
+			function usdfunc()
+			{
+			gbp.value = parseFloat(usd.value) * 2.03032;
+			eur.value = parseFloat(usd.value) * 1.41544;
+
+			}
+			init();
+			</script>
+
+		</div>
+	</center>
+	<h4>Réalisation d'un convertisseur de devises</h4>
+
+
+		<div class="img">
+				<h4><span>Ce Portfolio a été entièrement codé par mes soins</span></h4>
+		
+	</content>
+</body>
+</html>
