@@ -168,11 +168,9 @@ h3{
 
 #insta {
 
-	text-align: center;
-	justify-content: center;
-	text-align: center;
+	margin: 0px 25px;
+
 }
 
 #bloc_insta {
-	margin: 20px;
 }
