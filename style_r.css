@@ -112,7 +112,7 @@ content ul {
 text-decoration: none;
 margin:0;
 padding: 0;
-height: 600px;
+height: auto;
 margin-top:150px;
 }
 
@@ -175,6 +175,19 @@ content a {
 
 
 #d:hover 
+{
+	transition-duration: 800ms;
+	background-color: violet transparent;
+	opacity: 80%;
+}
+
+
+#e {
+	background-color: #603655;
+
+}
+
+#e:hover 
 {
 	transition-duration: 800ms;
 	background-color: violet transparent;
