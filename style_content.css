@@ -1,0 +1,18 @@
+.element {
+ height: auto;
+ width: 100%;
+}
+
+iframe {
+	width: 100%;
+	height: auto;
+}
+
+#im {
+    width: 100%;
+	height: auto;
+}
+video1 {
+    width: 100%;
+	height: auto;
+}
