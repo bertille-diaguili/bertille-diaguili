@@ -21,7 +21,10 @@ src: local(mallie),
 url("fonts/mallie.ttf")
 url(‘fonts/mallie.svg#mallie’) format("svg") ;
 }
-
+.element {
+	height: auto;
+	width: 100%;
+   }
 #realisations { 
 	border-bottom: 1.5px;
 	border-style:solid;  
@@ -97,15 +100,10 @@ header h1 {
 
 content {
 	text-decoration: none;
-  	position: absolute;
 	text-align: center;
-	width:100%;
   	background-color: #EBEEF0FF;
 	text-align: center;
-	display: block;
-	padding: 0;
-  	right: 0;
-  	left: 0;
+
   	margin-top:50px;
   }
 
@@ -121,7 +119,7 @@ content {
 
  content h4 {
  	font-family:'Montserrat', sans-serif;
- 	color;color: #87868d;
+ 	color: #87868d;
  	display: block;
  	margin-top: 30px;
 
@@ -161,7 +159,6 @@ content table {
 	border: solid yellow;
 	display:block;
 	width: 100%;
-	vertical-align: right;
 }
 content td{
 	border: solid yellow;
@@ -181,9 +178,15 @@ content td{
 	margin-right:20px;
 
 }
+iframe {
+	width: 100%;
+	height: auto;
+}
 
 .im
-{ 
+{  
+	width: 100%;
+	height: auto;
 	margin:100px auto;
 	text-align: center;
 }
