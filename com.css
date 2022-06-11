@@ -98,19 +98,17 @@ header h1 {
 
 /*content*/
 
-content {
-	text-decoration: none;
-  	position: absolute;
-	text-align: center;
-	width:100%;
-  	background-color: #EBEEF0FF;
-	text-align: center;
-	display: block;
-	padding: 0;
-  	right: 0;
-  	left: 0;
-  	margin-top:50px;
-  }
+	content {
+		text-decoration: none;
+		text-align: center;
+		  background-color: #EBEEF0FF;
+		text-align: center;
+	
+		  margin-top:50px;
+	  }
+	
+	
+  
 
 content h2 {
 	padding-top: 70px; 
