@@ -97,15 +97,10 @@ header h1 {
 
 content {
 	text-decoration: none;
-  	position: absolute;
 	text-align: center;
-	width:100%;
   	background-color: #EBEEF0FF;
 	text-align: center;
-	display: block;
-	padding: 0;
-  	right: 0;
-  	left: 0;
+
   	margin-top:50px;
   }
 
